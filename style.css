@@ -1,0 +1,103 @@
+/* Things used:
+
+  bg colors: #1f2937,
+
+  text colors: #e5e7eb, #f9faf8
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* colors */
+.dark-bg {
+  background-color: #1f2937;
+}
+
+/* "huge" parts */
+
+body {
+  font-family: "Roboto";
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16px;
+  margin-bottom: 64px;
+}
+
+.flex--dir-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.al--start {
+  align-items: flex-start;
+}
+
+/* NAV AND HEADER */
+
+.header-logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.nav-link,
+.hero-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 24px;
+}
+
+.hero {
+  display: flex;
+  gap: 50px;
+}
+
+.hero-title {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero-text{
+  margin-bottom: 10px;
+}
+
+.btn-sign {
+  width: 120px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #3882f6;
+  border: none;
+  color: #f9faf8;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.placeholder {
+  width: 500px;
+  height: 200px;
+  background-color: rgb(77, 77, 77);
+  color: white;
+  text-align: center;
+  flex: 0 0 auto;
+}
