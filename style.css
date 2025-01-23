@@ -28,14 +28,6 @@ body {
   margin: 0 auto;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 16px;
-  margin-bottom: 64px;
-}
-
 .flex--dir-col {
   display: flex;
   flex-direction: column;
@@ -45,7 +37,27 @@ nav {
   align-items: flex-start;
 }
 
+.dis--in-blk {
+  display: inline-block;
+}
+
+.wdth--twohun {
+  width: 200px;
+}
+
 /* NAV AND HEADER */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16px;
+  margin-bottom: 64px;
+}
+
+header {
+  padding-bottom: 128px;
+}
 
 .header-logo {
   font-size: 24px;
@@ -78,18 +90,18 @@ nav {
   font-weight: 900;
 }
 
-.hero-text{
+.hero-text {
   margin-bottom: 10px;
 }
 
 .btn-sign {
   width: 120px;
-  height: 40px;
-  border-radius: 10px;
+  height: 35px;
+  border-radius: 8px;
   background-color: #3882f6;
   border: none;
   color: #f9faf8;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
 }
 
@@ -100,4 +112,33 @@ nav {
   color: white;
   text-align: center;
   flex: 0 0 auto;
+}
+
+/* INFO SECTION */
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-title {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+}
+
+.small-box {
+  width: 200px;
+  height: 200px;
+  border: #3882f6 5px solid;
+  border-radius: 20px;
+}
+
+.small-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-align: center;
 }
