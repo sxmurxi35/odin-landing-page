@@ -156,7 +156,7 @@ header {
 
 /* QUOTE SECTION */
 
-.quote-text{
+.quote-text {
   padding-top: 96px;
   padding-bottom: 8px;
   font-size: 36px;
@@ -164,8 +164,57 @@ header {
   font-style: italic;
 }
 
-.quote-author{
+.quote-author {
   text-align: end;
   font-size: 24px;
   padding-bottom: 96px;
 }
+
+/* CTA */
+
+.sect-margin {
+  margin-top: 96px;
+}
+
+.cta-bg {
+  width: 100%;
+  padding: 30px 110px ;
+  /* margin: 0 auto; */
+  height: 120px;
+  background-color: #3882f6;
+  border-radius: 10px;
+}
+
+.flex-cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-text{
+  gap: 5px;
+}
+
+.cta-title{
+  font-size: 20px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.cta-text{
+  font-size: 16px;
+  color: #e5e7eb;
+}
+
+.btn-sign-sec {
+  width: 120px;
+  height: 35px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: white 2px solid;
+  color: #f9faf8;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* FOOTER */
