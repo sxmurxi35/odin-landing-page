@@ -17,6 +17,10 @@
   background-color: #1f2937;
 }
 
+.light-bg {
+  background-color: #e5e7eb;
+}
+
 /* "huge" parts */
 
 body {
@@ -24,7 +28,12 @@ body {
 }
 
 .container {
-  width: 1000px;
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.container--small {
+  width: 900px;
   margin: 0 auto;
 }
 
@@ -41,7 +50,7 @@ body {
   display: inline-block;
 }
 
-.wdth--twohun {
+.wdth--two-hun {
   width: 200px;
 }
 
@@ -138,7 +147,25 @@ header {
 }
 
 .small-text {
+  padding-top: 8px;
+  padding-bottom: 96px;
   font-size: 18px;
   color: #e5e7eb;
   text-align: center;
+}
+
+/* QUOTE SECTION */
+
+.quote-text{
+  padding-top: 96px;
+  padding-bottom: 8px;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.quote-author{
+  text-align: end;
+  font-size: 24px;
+  padding-bottom: 96px;
 }
